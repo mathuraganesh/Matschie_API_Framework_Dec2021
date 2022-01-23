@@ -1,6 +1,13 @@
-steps\IncidentManagement.class
-hooks\SetUp.class
+JIRAservices\BaseRequest.class
+JIRAsteps\JIRAManagement.class
+runner\RunTest_JIRAIssue.class
+JIRAhooks\SetUp.class
 steps\baseAPI.class
+JIRAservices\JIRATests.class
 services\BaseRequest.class
 runner\RunTest.class
+steps\IncidentManagement.class
+hooks\SetUp.class
+JIRAsteps\baseAPI.class
+runner\RunTest_CreateandUpdate.class
 services\IncidentTests.class

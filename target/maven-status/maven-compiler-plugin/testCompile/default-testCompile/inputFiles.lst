@@ -1,6 +1,13 @@
-D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\steps\baseAPI.java
-D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\hooks\SetUp.java
 D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\services\BaseRequest.java
-D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\steps\IncidentManagement.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\JIRAservices\JIRATests.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\runner\RunTest_JIRAIssue.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\JIRAservices\BaseRequest.java
 D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\runner\RunTest.java
 D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\services\IncidentTests.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\runner\RunTest_CreateandUpdate.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\steps\baseAPI.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\hooks\SetUp.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\steps\IncidentManagement.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\JIRAsteps\baseAPI.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\JIRAsteps\JIRAManagement.java
+D:\Selenium\eclipse_workspace\Matschie_API_Framework\src\test\java\JIRAhooks\SetUp.java

@@ -17,6 +17,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class IncidentManagement extends baseAPI{
 	
+	public static String IncidentNumber,SYS_ID;
 
 	@Given("enable logs")
 	public void setUp(){ 
@@ -76,6 +77,26 @@ public class IncidentManagement extends baseAPI{
 				json.body(field.getKey(), containsInAnyOrder(field.getValue()));
 			}
 		}
+	}
+	
+	@And("Get the Incident Number and Sys_id")
+	public void GetIncidentNumberandSys_id() {
+		IncidentNumber=response.jsonPath().get("result.number");
+		SYS_ID=response.jsonPath().get("result.sys_id");
+		System.out.println(IncidentNumber);
+		System.out.println(SYS_ID);
+	}
+	
+	@When("Get the incident")
+	public void GetIncident() {
+		response = request.accept(ContentType.JSON).get("incident/"+SYS_ID);
+		response.prettyPrint();
+	}
+	
+	@When("new incident is updated")
+	public void a_new_incident_updated(){
+		response = request.when().contentType(ContentType.JSON).put("incident/"+SYS_ID);
+		response.prettyPrint();
 	}
 }
 
